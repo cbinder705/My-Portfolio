@@ -19,3 +19,51 @@ body{
   font-family: 'Times New Roman', Times, serif;
   transition: all .4s ease-in-out
 }
+a{
+  display:inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family:inherit ;
+}
+header{
+  height: 100vh;
+  color: var(--white);
+  overflow:hidden;
+}
+
+section{ 
+  min-height: 100vh;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+padding: 48px;
+}
+.section{
+transform: translateY(-100%) scale(0);
+transition:all .4s ease-in-out;
+background-color: var(--color-one);
+}
+.sec1{
+  display: none;
+  transform: translateY(0) scale(1);
+}
+.sec2{
+  display: none;
+  transform: translateY(0) scale(1);
+} 
+.sec3{
+  display: none;
+  transform: translateY(0) scale(1);
+}
+.sec4{
+  display: none;
+  transform: translateY(0) scale(1);
+}
+.controller{
+  position: fixed;
+  z-index: 10;
+  top:50%;
+  right: 5%;
+  color: white;
+}
