@@ -1,7 +1,21 @@
+:root{
+  --color-one:#191d2b;
+  --color-two:#27ae60;
+  --white:#FFFFFF;
+  --black:#000;
+  --small-bg: 14px;
+
+}
 *{
   margin:0%;
   padding:0%;
   box-sizing: border-box;
   list-style: none;
   
+}
+body{
+  background-color: var(--color-one);
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: all .4s ease-in-out
 }
