@@ -18,7 +18,8 @@ body{
   background-color: var(--color-one);
   font-size: 17px;
   font-family: 'Times New Roman', Times, serif;
-  transition: all .4s ease-in-out
+  transition: all .4s ease-in-out;
+  color: var(--white);
 }
 a{
   display:inline-block;
@@ -81,18 +82,18 @@ background-color: var(--color-one);
   }
   
 }
-.control{
+.control {
   padding: 1rem;
   cursor: pointer;
   background-color: rgba(44, 70, 94, 0.986);
   width: 55px;
   height: 55px;
-border-radius: 50%;
-display: flex;
-align-items: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
   justify-content: center;
   margin: .8rem 0;
-box-shadow: var(--shadow-1);
+  box-shadow: var(--shadow-1);
 i{
   font-size: 1.2rem;
   color:gray;
