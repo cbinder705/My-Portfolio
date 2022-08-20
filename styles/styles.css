@@ -4,6 +4,7 @@
   --white:#FFFFFF;
   --black:#000;
   --small-bg: 14px;
+  --shadow-1:0 3px 15px rgba(0,0,0,.3) ;
 }
 
 * {
@@ -39,7 +40,7 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  padding: 48px;
+  padding: 3rem 18rem;
 }
 
 .section {
@@ -73,5 +74,34 @@ section {
   z-index: 10;
   top: 50%;
   right: 5%;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  color: var(--black);
+}
+
+.active-btn {
+  background-color: var(--color-two);
+  transition: all 0.4s ease-in-out i;
+  transition-color: var(--white);
+}
+
+.control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: rgba(44, 70, 94, 0.986);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 0;
+  box-shadow: var(--shadow-1);
+}
+.control i {
+  font-size: 1.2rem;
+  color: gray;
 }/*# sourceMappingURL=styles.css.map */
