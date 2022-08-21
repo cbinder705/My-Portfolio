@@ -1,28 +1,13 @@
-# <Your-Project-Title>
+# <My Portfolio >
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project was made to show my skills that i have learned about coding during and outside of the boot camp and hopefully with some luck will gain me employment.
+Ive had alot of fun so far testing and seeing how things work, despite what half of my commit messsages might say. HA, that was supposed to be funny..
+Hopefully by the time this projects completed i will have a slightly more professional description.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
+## Deployment SS
 
 Provide instructions and examples for use. Include screenshots as needed.
 
