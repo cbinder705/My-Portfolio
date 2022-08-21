@@ -84,9 +84,11 @@ section {
 }
 
 .active-btn {
-  background-color: var(--color-two);
+  background-color: var(--color-two) !important;
   transition: all 0.4s ease-in-out;
-  color: var(--white);
+}
+.active-btn i {
+  color: var(--white) !important;
 }
 
 .control {

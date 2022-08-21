@@ -77,12 +77,13 @@ background-color: var(--color-one);
   color:var(--black);
 }
 .active-btn{
-  background-color: var(--color-two);
+  background-color: var(--color-two) !important;
   transition: all .4s ease-in-out;
-  color:var(--white);
-  
-  
+  i{
+  color:var(--white) !important;
+  }
 }
+
 .control {
   padding: 1rem;
   cursor: pointer;
