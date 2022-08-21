@@ -51,18 +51,22 @@ background-color: var(--color-one);
 .sec1{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: orange;
 }
 .sec2{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: slateblue;
 } 
 .sec3{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: yellow;
 }
 .sec4{
   display: none;
   transform: translateY(0) scale(1);
+  background-color: purple
 }
 .controller{
   position: fixed;
