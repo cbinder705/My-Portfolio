@@ -4,7 +4,7 @@
   --white:#FFFFFF;
   --black:#000;
   --small-bg: 14px;
-  --shadow-1:0 3px 15px rgba(0,0,0,.3) ;
+  --shadow-1:0 3px 15px rgba(0,0,0,.3);
 }
 
 * {
@@ -85,8 +85,8 @@ section {
 
 .active-btn {
   background-color: var(--color-two);
-  transition: all 0.4s ease-in-out i;
-  transition-color: var(--white);
+  transition: all 0.4s ease-in-out;
+  color: var(--white);
 }
 
 .control {
