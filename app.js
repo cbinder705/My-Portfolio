@@ -13,7 +13,7 @@ function Transitions(){
   }
 
   allSections.addEventListener('click',(e) =>{
-    console.log(e.target);
+    console.log('e.target');
   })
 }
 

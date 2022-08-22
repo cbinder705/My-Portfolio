@@ -1,6 +1,6 @@
 :root{
-  --color-one:#191d2b;
-  --color-two:#27ae60;
+  --color-one:#0b0413af;
+  --color-two:#c691d3;
   --white:#FFFFFF;
   --black:#000;
   --small-bg: 14px;
@@ -81,10 +81,11 @@ background-color: var(--color-one);
   color:var(--black);
 }
 .active-btn{
-  background-color: var(--color-two) !important;
+  background-color: var(--color-two)!important;
   transition: all .4s ease-in-out;
   i{
-  color:var(--white) !important;
+  color:var(--black) !important;
+  opacity: 90%;
   }
 }
 

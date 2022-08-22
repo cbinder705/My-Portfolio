@@ -1,6 +1,6 @@
 :root {
-  --color-one:#191d2b;
-  --color-two:#27ae60;
+  --color-one:#0b0413af;
+  --color-two:#c691d3;
   --white:#FFFFFF;
   --black:#000;
   --small-bg: 14px;
@@ -92,7 +92,8 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .active-btn i {
-  color: var(--white) !important;
+  color: var(--black) !important;
+  opacity: 90%;
 }
 
 .control {
