@@ -51,7 +51,7 @@ background-color: var(--color-one);
 .sec1{
   display: none;
   transform: translateY(0) scale(1);
-  background-color: orange;
+  background-color: rgb(110, 75, 99);
 }
 .sec2{
   display: none;
@@ -61,12 +61,25 @@ background-color: var(--color-one);
 .sec3{
   display: none;
   transform: translateY(0) scale(1);
-  background-color: yellow;
+  background-color: rgba(241, 241, 151, 0.363);
 }
 .sec4{
   display: none;
   transform: translateY(0) scale(1);
-  background-color: purple
+  background-color: rgb(245, 153, 245)
+}
+.active{
+  display: block;
+  animation: scaleAnim 1s ease-in-out;
+  @keyframes scaleAnim {
+    0%{
+      transform: translateY(-100%) scaleY(0)
+    }
+    100%{
+      transform: translateY(0%) scaleY(1)
+    }
+    
+  }
 }
 .controller{
   position: fixed;
@@ -106,4 +119,16 @@ i{
   color:gray;
 }
 
+}
+
+// header content
+.header-content{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  height: 100%;
+  .left-header{
+    display: flex;
+    align-items:center;
+    position: relative;
+  }
 }
