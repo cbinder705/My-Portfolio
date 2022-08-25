@@ -201,6 +201,20 @@ section {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
+.about-container .left-about {
+  padding-right: 5rem;
+}
+.about-container .left-about p {
+  line-height: 2rem;
+  padding: 1rem;
+  color: rgb(255, 254, 254);
+}
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  color: var(--color-two);
+}
 .about-container .right-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
