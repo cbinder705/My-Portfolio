@@ -9,13 +9,7 @@ Hopefully by the time this projects completed i will have a slightly more profes
 
 ## Deployment SS
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+C:\Users\promi\Portfolio\My-Portfolio\images\port-ss.png
 
 ## Credits
 
@@ -30,5 +24,6 @@ https://fontawesome.com/
 ## Badges
 
 https://img.shields.io/badge/CSS-75%25-blueviolet
+https://img.shields.io/badge/HTML-60%25-green
 
 
