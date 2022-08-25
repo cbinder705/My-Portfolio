@@ -16,7 +16,7 @@
 
 body {
   background-color: var(--color-one);
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Times New Roman", Times, serif;
   transition: all 0.4s ease-in-out;
   color: var(--white);
@@ -145,4 +145,35 @@ section {
   display: flex;
   align-items: center;
   position: relative;
+}
+.header-content .left-header .header-shape {
+  transition: all 0.4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--color-two);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 100%);
+          clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.header-content .left-header .image {
+  border-radius: var(--small-bg);
+  height: 100%;
+  width: 65%;
+  margin-left: 1.5rem;
+  transition: all 0.4s ease-in-out;
+}
+.header-content .left-header .image img {
+  scale: 65%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+.header-content .left-header .image img:hover {
+  filter: grayscale(0%);
 }/*# sourceMappingURL=styles.css.map */
