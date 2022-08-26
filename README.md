@@ -6,6 +6,7 @@ This project was made to show my skills that i have learned about coding during 
 Ive had alot of fun so far testing and seeing how things work, despite what half of my commit messsages might say. HA, that was supposed to be funny..
 Hopefully by the time this project is completed i will have a slightly more professional description.
 This is also a work-in-progress, i used the tutorial mainly for learning purposes and just figured that if this was eventually going to be the website that gained me employment i wanted to get a head start.
+I also plan to add features and statistics to this website as the course moves along.
 
 
 ## Deployment SS
