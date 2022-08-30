@@ -10,8 +10,9 @@ I also plan to add features and statistics to this website as the course moves a
 On a side note i downloaded sass because of the benefits it has with nesting and its live update features so hopefully that is alright!
 
 ## Deployment SS
+![Website-image](images\port-ss.png)
 
-C:\Users\promi\Portfolio\My-Portfolio\images\port-ss.png
+
 
 ## Credits
 
